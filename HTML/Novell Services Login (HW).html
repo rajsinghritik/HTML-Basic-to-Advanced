@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Novell Services</title>
+</head>
+<body>
+    
+    <form >
+
+        <h1>Novell Services Login</h1>
+
+        <label for="username">Username</label>
+        <input type="text" id="username">
+        <br/>
+        <br />
+
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br />
+        <br />
+
+        <label for="employment">City of employment</label>
+        <input type="text" id="employment">
+        <br />
+        <br />
+
+        <label for="webServer">Web Server</label>
+        <select id="webServer">
+            <option value="">--Choose a server--</option>
+            <option value="MyServer">MyServer</option>
+            <option value="Others">Others</option>
+        </select>
+        <br />
+        <br />
+
+        <p>Please specify your role</p>
+        <input type="radio" id="Admin" name="radioButton">
+        <label for="Admin">Admin</label>
+        <br />
+
+        <input type="radio" id="Engineer" name="radioButton">
+        <label for="Engineer">Engineer</label>
+        <br />
+
+        <input type="radio" id="Manager" name="radioButton">
+        <label for="Manager">Manager</label>
+        <br />
+
+        <input type="radio" id="Guest" name="radioButton">
+        <label for="Guest">Guest</label>
+
+        <br />
+        <br />
+        <p> Single sign-on to the following </p>
+        
+        <input type = "checkbox" id="mailcheckbox" name="checkboxButton">
+        <label for="mailcheckbox">Mail</label>
+        <br />
+
+        <input type="checkbox" id="payrollcheckbox" name="checkboxButton">
+        <label for="payrollcheckbox">Payroll</label>
+        <br />
+
+        <input type="checkbox" id="selfServicecheckbox" name="checkboxButton">
+        <label for="selfServicecheckbox">Self-service</label>
+        <br />
+        <br />
+
+        <button>Login</button>
+        <button>Reset</button>
+
+    </form>
+
+</body>
+</html>
